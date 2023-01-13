@@ -30,8 +30,6 @@ namespace KaizenCaseStudy.Question_2
                 return;
             }
 
-            //var bitmapWidth = overall.BoundingPoly.TopLeft.X + overall.BoundingPoly.TopRight.X;
-            //var bitmapHeight = overall.BoundingPoly.TopLeft.Y + overall.BoundingPoly.BottomLeft.Y;
             var bitmapWidth = overall.BoundingPoly.TopRight.X;
             var bitmapHeight = overall.BoundingPoly.BottomRight.Y;
 
